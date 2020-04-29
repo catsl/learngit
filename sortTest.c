@@ -1,5 +1,7 @@
 #include<string.h>
+#include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
 int LENGTH=10000;
 void printArray(int *array,int length);
 void bubbleSort(int*array,int length);

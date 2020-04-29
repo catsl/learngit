@@ -1,5 +1,5 @@
 #include<stdio.h>
-void quickSort(int *array,int lenght){
+void quickSort(int *array,int start,int end){
 	if(start>=end){
 		return;
 	}
@@ -20,6 +20,5 @@ void quickSort(int *array,int lenght){
 	quickSort(array,start+1,ed);
 }
 void fastSort(int *array,int length){
-	quickSort(array,st,start-1);
-	quickSort(array,start+1,ed);
+	quickSort(array,0,length-1);
 }

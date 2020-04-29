@@ -11,7 +11,4 @@ void bubbleSort(int * array,int length){
 			}	
 		}	
 	}
-	for(int i=0;i<length-1;i++){
-		cout<<array[i]<<endl;
-	}
 }
