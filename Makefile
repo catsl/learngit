@@ -13,7 +13,8 @@ fastSort.o:fastSort.c
 selectSort:selectSort.c
 	gcc -c selectSort.c
 
-clear:
+.PHONY:clean
+clean:
 	re -rf sortTest.o bubbleSort.o fastSort.o selectSort.o
 
 
