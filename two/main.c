@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 void printLoop(char*);
-int printNum=1000;
+int printNum=100;
 
 int main(int argc,char** argv){
 	if(argc>1){
