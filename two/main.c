@@ -1,4 +1,6 @@
 #include<unistd.h>
+#include<stdlib.h>
+#include<stdio.h>
 void printLoop(char*);
 int printNum=1000;
 
