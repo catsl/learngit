@@ -1,9 +1,9 @@
 #include "job.h"
 std::ostream & operator<<(std::ostream &output, Job &job) {
-    output << "JobID:" << job.jobId
-        << "\tArrivalTime:" << job.arrivalTime
-        << "\t ExecutionTime:" << job.executionTime
-        << "\tPriority:" << job.priority;
+    output << "进程ID: " << job.jobId
+        << "\t 进程到达时间:" << job.arrivalTime
+        << "\t 进程执行时间:" << job.executionTime
+        << "\t 优先度:" << job.priority;
     return output;
 }
 

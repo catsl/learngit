@@ -1,11 +1,10 @@
 #pragma once
 #include "linkList.h"
 #include "job.h"
-class FCFS {
+class SJF {
 public:
     //构造函数
-    FCFS(NodeList<Job> jobs) : list(jobs) 
-	{
+    SJF(NodeList<Job> jobs) : list(jobs) {
         list.SetCompareFunction(jobSortArrivalTime);
         list.Sort();
     }
