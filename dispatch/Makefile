@@ -1,8 +1,8 @@
 all:main.o FPFS.o SJF.o HPF.o RR.o linklist.o job.o
-	gcc -o processTest.bin main.o FPFS.o SJF.o HPF.o RR.o linklist.o job.o
+	g++ -o processTest.bin main.o FPFS.o SJF.o HPF.o RR.o linklist.o job.o
 
 main.o:main.c
-	gcc -c main.c
+	g++ -c main.c
 
 FPFS.o:FPFS.c
 	gcc -c FPFS.c
@@ -20,7 +20,7 @@ linklist.o:linklist.c
 	gcc -c linklist.c
 
 job.o:job.c
-	gcc -c job.c
+	g++ -c job.c
 
 .PHONY:clean
 

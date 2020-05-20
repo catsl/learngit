@@ -1,5 +1,5 @@
 #pragma once
-#include "linkList.h"
+#include "linklist.h"
 #include "job.h"
 struct JobPack {
     Job job;

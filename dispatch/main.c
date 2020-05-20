@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "job.h"
-#include "linkList.h"
+#include "linklist.h"
 #include "FCFS.h"
 #include "SJF.h"
 #include "HPF.h"
