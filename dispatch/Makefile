@@ -1,23 +1,21 @@
-all:main.o FPFS.o SJF.o HPF.o RR.o linklist.o job.o
-	g++ -o processTest.bin main.o FPFS.o SJF.o HPF.o RR.o linklist.o job.o
+all:main.o FCFS.o SJF.o HPF.o RR.o job.o
+	g++ -o processTest.bin main.o FCFS.o SJF.o HPF.o RR.o job.o
 
 main.o:main.c
 	g++ -c main.c
 
-FPFS.o:FPFS.c
-	gcc -c FPFS.c
+FCFS.o:FCFS.c
+	g++ -c FCFS.c
 
 SJF.o:SJF.c
-	gcc -c SJF.c
+	g++ -c SJF.c
 
 HPF.o:HPF.c
-	gcc -c HPF.c
+	g++ -c HPF.c
 
 RR.o:RR.c
-	gcc -c RR.c
+	g++ -c RR.c
 
-linklist.o:linklist.c
-	gcc -c linklist.c
 
 job.o:job.c
 	g++ -c job.c
